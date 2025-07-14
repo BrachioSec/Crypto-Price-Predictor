@@ -1,6 +1,6 @@
-# 💹 Crypto Price Predictor with GUI (JAX + Flax + LSTM)
+# 💹 Crypto Price Predictor  (JAX + Flax + LSTM)
 
-This project is an advanced cryptocurrency price predictor using deep learning (LSTM), powered by **JAX**, **Flax**, and **Optax**. It includes a user-friendly **Tkinter GUI**, letting users input a crypto symbol and prediction horizon, then displaying actual vs predicted prices in a clean interactive chart.
+This project is an advanced cryptocurrency price predictor using deep learning (LSTM), powered by **JAX**, **Flax**, and **Optax**. It includes a user-friendly terminal interface letting users input a crypto symbol and prediction horizon, then displaying actual vs predicted prices in a clean interactive chart.
 
 ---
 
@@ -10,7 +10,7 @@ This project is an advanced cryptocurrency price predictor using deep learning (
 * 🔧 Technical indicator extraction (MACD, RSI, EMA, SMA, Bollinger Bands)
 * 🧠 JAX-accelerated LSTM neural network built with Flax
 * 📊 Interactive GUI (via Tkinter) for symbol input and prediction
-* 📉 Live Matplotlib graph in GUI canvas (no terminal required)
+* 📉 Live Matplotlib graph in canvas
 
 ---
 
@@ -30,8 +30,9 @@ pip install jax[cpu] flax optax yfinance pandas numpy matplotlib
 > 💡 On Apple M1/M2 Macs:
 
 ```bash
-pip install --upgrade "jax[cpu]"
+python3 pip install -m pip install jax[cpu] flax optax yfinance pandas numpy matplotlib --break-system-packages
 ```
+(You still could have some problems just install the module that the error output says doesnt exit or write in the issues)
 
 Or use `requirements.txt`:
 
@@ -50,7 +51,7 @@ Install all at once:
 ```bash
 pip install -r requirements.txt
 ```
-
+add python3 -m to its front and --break-system-packages on the end FOR MAC
 ---
 
 ## 🚀 How to Run
@@ -107,6 +108,10 @@ python main.py
 * MACD (Moving Average Convergence Divergence)
 * SMA & EMA
 * Bollinger Bands
+
+---
+
+TESTED ON A MAC
 
 ---
 
