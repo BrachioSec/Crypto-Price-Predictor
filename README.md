@@ -1,3 +1,6 @@
+#DİSCLAMER STİLL NOT FİNİSHED THE CODE HERE İS NOT THE REAL PRODUCT
+
+
 # 💹 Crypto Price Predictor  (JAX + Flax + LSTM)
 
 This project is an advanced cryptocurrency price predictor using deep learning (LSTM), powered by **JAX**, **Flax**, and **Optax**. It includes a user-friendly terminal interface letting users input a crypto symbol and prediction horizon, then displaying actual vs predicted prices in a clean interactive chart.
